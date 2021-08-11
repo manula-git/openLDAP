@@ -1,0 +1,19 @@
+dn: ou=permanent,dc=Itacademy,dc=com
+objectclass: organizationalunit
+ou: permanent
+description: Employee Type
+
+dn: ou=contractor,dc=Itacademy,dc=com
+objectclass: organizationalunit
+ou: contractor
+description: Employee Type
+
+dn: ou=books,dc=Itacademy,dc=com
+objectclass: organizationalunit
+ou: books
+description: Reading Materials
+
+dn: ou=system,dc=Itacademy,dc=com
+objectclass: organizationalunit
+ou: system
+description: org unit for sys

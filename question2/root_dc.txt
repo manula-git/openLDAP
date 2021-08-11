@@ -1,0 +1,5 @@
+dn: dc=Itacademy, dc=com
+dc: Itacademy
+o: Itacademy
+objectclass: organization
+objectclass: dcObject

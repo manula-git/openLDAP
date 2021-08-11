@@ -1,0 +1,13 @@
+
+#adding suffix
+ldapadd -D cn="Manager, dc=Itacademy,dc=com" -h 127.0.0.1 -w'manula' -x -f root_dc.txt
+
+#adding ou
+ldapadd -D cn="Manager, dc=Itacademy,dc=com" -h 127.0.0.1 -w'manula' -x -f ou.txt
+
+#adding users & modifing there passwords
+ldapadd -D cn="Manager, dc=Itacademy,dc=com" -h 127.0.0.1 -w'manula' -x -f users.txt
+ldapmodify -a -h 127.0.0.1 -D "cn=Manager,dc=Itacademy,dc=com" -w'manula' -f adding_user_passwds.txt
+
+#adding books
+ldapadd -D cn="Manager, dc=Itacademy,dc=com" -h 127.0.0.1 -w'manula' -x -f bookinfo.txt
